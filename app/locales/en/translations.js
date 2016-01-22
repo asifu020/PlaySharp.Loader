@@ -1,48 +1,47 @@
-import Ember from 'ember';
-import EN from './champions';
+ادخل Ember الى 'ember';
+ادخل EN الى './champions';
 
-const result = {
-  "assemblies": {
-    "buttons": {
-      "install": "Install",
-      "options": "Options"
+const النتيجة = {
+  "السكربت": {
+    "الازرار": {
+      "تنصيب": "تنصيب",
+      "خيارات": "خيارات"
     },
-    "search_by": {
-      "assemblies": "Champion",
-      "libraries": "Libraries",
-      "utilities": "Utilities"
+    "بحث_بواسطة": {
+      "اسمبليس": "التشامبيون",
+      "المكتبات": "المكتبات",
+     "المساعدات": "المساعدات"
     },
-    "search_phrase": "Search for assemblies",
-    "sort_by": {
-      "last_update": "Last Update",
-      "name": "Name",
-      "rating": "Rating"
+    "صيغة_البحث": "بحث عن اسمبليس",
+    "فرز_بي حسب": {
+      "التحديث_الاخير": "التحديث_الاخير",
+      "الاسم": "الاسم",
+      "التقدير": "التقدير"
     },
-    "written_by": "This assembly is written by {author} and the last update was {until-now}"
-  },
-  "layout": {
-    "logout": "Logout",
-    "navigation": {
-      "applog": "Applog",
-      "assemblies": "Assemblies",
-      "changelog": "Changelog",
-      "news": "News",
-      "profiles": "Profiles",
-      "settings": "Settings"
+    "كتب_بواسطة": هذا الاسبملي كتب بواسطة {المؤلف} واخر تحديث كان {حتى_الان}"
+  "التصميم": {
+    "خروج": "خروج",
+    "التنقل": {
+      "سجل_التبطيق": "سجل_التطبيق",
+      "اسمبليس": "اسمبليس",
+      "سجل_التغيير": "سجل_التغيير,
+      "الاخبار": "الاخبار",
+      "الملف": "الملف",
+      "الأعدادت": "الأعدادت"
     },
-    "welcome_back": "Welcome back, {username}!"
-  },
-  "profiles": {
-    "set": {
+"مرحبا_بعودتك": "مرحبا بعودتك, {اسم المستخدم}!"
+},
+  "الملفات": {
+    "حدد": {
       "root": {
-        "create": "Create a new set",
-        "default": "Default Profile {index}",
-        "title": "My Sets"
+        "create": "انتج طقم جديد",
+        "default": "الملف الافتراضي {index}",
+        "title": "مجموعاتي"
       },
       "entry": {
-        "author": "Assembly Author",
-        "name": "Assembly Name",
-        "version": "Assembly Version"
+        "author": "مؤلف الاسمبلي",
+        "name": "اسم الاسمبلي",
+        "version": "نسخة الاسمبلي"
       }
     }
   }
