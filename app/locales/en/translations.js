@@ -4,45 +4,45 @@ import EN from './champions';
 const result = {
   "assemblies": {
     "buttons": {
-      "install": "Install",
-      "options": "Options"
+      "install": "تثبيت",
+      "options": "خيارات"
     },
     "search_by": {
-      "assemblies": "Champion",
-      "libraries": "Libraries",
-      "utilities": "Utilities"
+      "assemblies": "الشخصية",
+      "libraries": "المكاتب",
+      "utilities": "المساعد"
     },
-    "search_phrase": "Search for assemblies",
+    "search_phrase": "ابحث عن اسمبليس",
     "sort_by": {
-      "last_update": "Last Update",
-      "name": "Name",
-      "rating": "Rating"
+      "last_update": "اخر تحديث",
+      "name": "الاسم",
+      "rating": "التقدير"
     },
-    "written_by": "This assembly is written by {author} and the last update was {until-now}"
+    "written_by": " هذا الاسمبلي كتب بواسطة {author} واخر تحديث كان {until-now}"
   },
   "layout": {
-    "logout": "Logout",
+    "logout": "الخروج",
     "navigation": {
-      "applog": "Applog",
-      "assemblies": "Assemblies",
-      "changelog": "Changelog",
-      "news": "News",
-      "profiles": "Profiles",
-      "settings": "Settings"
+      "applog": "سجل التطبيق",
+      "assemblies": "الاسملبيس",
+      "changelog": "سجل التغيير",
+      "news": "الاخبار",
+      "profiles": "الملفات الشخصية",
+      "settings": "الاعدادات"
     },
-    "welcome_back": "Welcome back, {username}!"
+    "welcome_back": "مرحبا بعودتك, {username}!"
   },
   "profiles": {
     "set": {
       "root": {
-        "create": "Create a new set",
-        "default": "Default Profile {index}",
-        "title": "My Sets"
+        "create": "انتج مجموعة جديدة",
+        "default": "الملف الافتراضي {index}",
+        "title": "مجموعاتي"
       },
       "entry": {
-        "author": "Assembly Author",
-        "name": "Assembly Name",
-        "version": "Assembly Version"
+        "author": "مؤلف الاسمبلي",
+        "name": "اسم الاسمبلي",
+        "version": "نسخة الاسمبلي"
       }
     }
   }
